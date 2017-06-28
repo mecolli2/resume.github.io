@@ -1,1 +1,276 @@
+html, body {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	font-family: Arimo;
+}
+
+h1 {
+	text-align: center;
+	margin: 0;
+}
+
+p {
+	font-size: 1.15em;
+	color: #A9A09F;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/*   Top Head    */
+	
+.top_head {
+	background: #2C313A;
+	width: 100%;
+	height: 7.5em;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+}
+
+.name {
+	width: 50%;
+	height: 100%;
+	margin: 0% auto;
+	position: relative;
+	display: block;
+}
+
+#image1 {
+	width: 50%;
+	height: auto;
+	margin: 0 auto;
+}
+
+#image1 img {
+	width: 175px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+.first {
+	width: 50%;
+	margin: 150px auto 0 auto;
+	text-align: center;
+}
+	
+.name h1 {
+	color: #FFF;
+	font-size: 2.5em;
+	padding-top: 0.75em;
+	letter-spacing: 2.5px;
+}
+
+.first p, h2 {
+	margin: 0;
+}
+
+.first h2 {
+	font-size: 2em;
+	padding-bottom: 15px;
+}
+
+/*   Buttons    */
+
+.buttons {
+	width: 50%;
+	margin: 40px 25%;
+	display: block;
+	position: relative;
+	height: 35px;
+}
+
+.third {
+	width: 29%;
+	margin: 0 1.5%;
+	display: inline-block;
+	background: #727272;
+	border: 1px solid #727272;
+	border-radius: 5px;
+	color: #FFFFFF;
+	-webkit-transition: background-color 0.5s ease-out;
+  	-moz-transition: background-color 0.5s ease-out;
+  	-o-transition: background-color 0.5s ease-out;
+  	transition: background-color 0.5s ease-out;
+  	-webkit-transition: color 0.3s ease-out;
+  	-moz-transition: color 0.3s ease-out;
+  	-o-transition: color 0.3s ease-out;
+  	transition: color 0.3s ease-out;
+  	float: left;
+  	height: 100%;
+}
+
+.third h1{
+	font-size: 1em;
+	font-weight: 100;
+	padding: 2px;
+	margin-top: 4px;
+}
+
+.third:hover {
+	width: 29%;
+	margin: 0 1.5%;
+	display: inline-block;
+	background: #CCC;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	color: #605E5E;
+}
+
+/*   Inbetween head title and featured projects section   */
+
+.line {
+	margin-top: 150px;
+	border-bottom: 1px solid #A0A09F;
+	display: inline-block;
+	position: relative;
+}
+
+.sectitle {
+    margin-top: 112px;
+    display: inline-block;
+    text-align: center;
+    font-size: 3.5em;
+    letter-spacing: 2.5px;
+    color: #A0A09F;
+    font-weight: 100;
+    position: relative;
+}
+
+#feature1 {
+	width: 25%;
+	float: left;
+}
+
+#feature2 {
+	width: 25%;
+	float: right;
+}
+
+#fpw {
+	width: 50%;
+}
+
+/*   Featured projects section   */
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.projects {
+	width: 100%;
+	margin: 0;
+	height: auto;
+}
+
+.expansion {
+	margin: 80px 15% 0 15%;
+	width: auto;
+	position: relative;
+}
+
+.description {
+	width: 74.5%;
+	height: auto;
+	margin: 0;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+}
+
+.expansion img {
+	width: 21%;
+	height: auto;
+	margin: 80px 0 0 0;
+	display: inline-block;
+	border-radius: 100%;
+}
+
+.expansion p {
+	padding: 10px 5% 0 5%;
+}
+
+.description h2 {
+	font-size: 2em;
+}
+
+/*    Inbetween Featured Projects and Contact Me     */
+
+#cm {
+	width: 33%
+}
+
+/*    Contact Me    */
+
+.contactsec {
+	height: 12em;
+	width: 100%;
+	margin-top: 15px;
+	display: inline-block;
+}
+
+#info {
+	width: 33%;
+	height: auto;
+	margin: 15px 0 0 120px;
+	display: inline-block;
+	float: left;
+}
+
+#info h3 {
+    font-size: 1em;
+    letter-spacing: 1.25px;
+    color: #605E5E;
+    margin: 0;
+    line-height: normal;
+    position: relative;
+}
+
+#contactspan1 {
+	width: 33%;
+	float: left;
+}
+
+#contactspan2 {
+	width: 33%;
+	float: right;
+}
+
+.contact_list {
+	width: 50%;
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	position: relative;
+	font-size: inherit;
+	font-family: inherit;
+}
+
+.left_contact {
+	background-color: #FFF;
+	width: 95%;
+	border: none;
+	border-bottom: 1px solid #A0A09F;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+.contact_leftside {
+	width: 48%;
+	display: inline-block;
+	padding-top: 15px;
+	float: left;
+	font-family: inherit;
+	font-size: inherit;
+}
 
